@@ -31,7 +31,7 @@ def send_text(message):
         bot.send_message(user, 'well')
         bot.send_message(user, 'see you')
     else:
-        bot.send_message(message.chat.id, '¯\_(ツ)_/¯ ')
+        bot.send_message(message.chat.id, '¯\_(ツ)_/¯ ')  .
 
 
 bot.infinity_polling()
